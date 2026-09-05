@@ -57,5 +57,9 @@ quantum-snake-raylib/
 - Using `std::deque` to efficiently grow and shrink a moving body of segments
 - Collision detection (point-in-rectangle for UI buttons, edge and self-collision for gameplay)
 
+## Known Limitations
+- The high score is kept in memory for the current run only — it is not saved to disk, so it resets each time the game is closed and reopened.
+- Requires raylib to be installed/available to the compiler; it is not bundled with this repository.
+
 ## Attribution
 The initial project scaffolding (folder layout, `main.code-workspace`, base window setup) comes from a public raylib + VS Code starter template. All gameplay code — the menu system, levels, scoring, sounds, and the snake/food/game logic — was written on top of that template.
