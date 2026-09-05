@@ -1,0 +1,18 @@
+# Build artifacts
+bin/
+obj/
+build/
+*.o
+*.exe
+*.out
+
+# IDE / editor
+.vs/
+.vscode/*
+!.vscode/settings.json
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
